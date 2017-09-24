@@ -1,6 +1,7 @@
 
 <h1>Welcome home</h1>
-<div fxLayout='row' class = "from">
+<div fxLayout='row' fxFlex="33%" class = "from">
+  <br>
 <form >
   <div>
     <md-form-field class="textField">
@@ -16,6 +17,17 @@
 </form>
 
 <div>
-    <button md-raised-button class="textField">Login</button>
+    <button md-raised-button class="textField" (click)="showNextPage()">Login</button>
 </div>
+<hr>
+<div>
+    <button md-raised-button class="textField" (click)="showNextPage()">Login with Gmail</button>
+</div>
+<hr>
+
+<div>
+    <button md-raised-button class="textField" (click)="showNextPage()">Login with Facebook</button>
+</div>
+<hr>
+
 </div>

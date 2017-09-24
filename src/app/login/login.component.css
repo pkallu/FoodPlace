@@ -4,6 +4,20 @@
   width: 100%;
   color:lightgreen
 }
+/* .from {
+  background-color:lightpink;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  height: 40%;
+  width: 50%;
+} */
+
+
 .from {
-  background-color:lightpink
+  margin: auto;
+  width: 50%;
+  background-color:lightpink;
+  padding: 10px;
 }
